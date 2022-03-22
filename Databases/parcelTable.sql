@@ -1,0 +1,12 @@
+CREATE TABLE parcel(id VarChar(200),
+					description VarChar(500) NOT NULL,
+					sender_number VarChar(100) NOT NULL,
+					receiver_number VarChar(100) NOT NULL,
+					start_location VarChar(100) NOT NULL,
+					end_location VarChar(100) NOT NULL,
+					isDeleted INT DEFAULT 0,
+					isUpdated INT DEFAULT 0,
+					isSent INT DEFAULT 0,
+					isDelivered INT DEFAULT 0,
+					current_location VarChar(100) NOT NULL,
+					sender_id Varchar(200) FOREIGN KEY(id) REFERENCES users);
