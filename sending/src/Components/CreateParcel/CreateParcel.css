@@ -1,0 +1,39 @@
+.CreateParcel{
+  background-color: #939597;
+  width: 360px;
+    height: 350px;
+  align-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+form{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+    margin-left: 20px;
+}
+form label{
+  display: flex;
+    font-size: 18px;
+}
+form input {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+}
+input[type="button"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 18px;
+  }
